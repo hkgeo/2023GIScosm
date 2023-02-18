@@ -18,16 +18,16 @@ library(writexl)실습에 사용할 파일: 02-df01.csv, 02-df02.xlsx, 02-df03.c
 #### 03-1. 데이터프레임 불러오기
 
 ```r
-df1<-read.csv("./데이터/02-df01.csv")        #csv파일 불러오기
-df2<-read_excel("./데이터/02-df02.xlsx")     #xlsx파일 불러오
-df3<-read.csv("./데이터/02-df03.csv")
-df4<-read.csv("./데이터/02-df04.csv")
+df1<-read.csv("./데이터/03-df01.csv")        #csv파일 불러오기
+df2<-read_excel("./데이터/03-df02.xlsx")     #xlsx파일 불러오
+df3<-read.csv("./데이터/03-df03.csv")
+df4<-read.csv("./데이터/03-df04.csv")
 ```
 
 <img src="./이미지/2dflist.png" title="" alt="" width="494">
 
 ```r
-df5<-read.csv("./데이터/02-df01.csv", header=FALSE) 
+df5<-read.csv("./데이터/03-df01.csv", header=FALSE) 
 #첫 행을 변수명으로 불러오지 않음
 ```
 
