@@ -56,4 +56,4 @@ merge(df6, df4, all.x=TRUE)     #왼쪽 데이터프레임의 행만 유지
 merge(df6, df4, all.y=TRUE)     #오른쪽 데이터프레임의 행만 유지
 ```
 
-<img src="./이미지/2rmerge.png" title="" alt="" width="494">
+<img src="./이미지/2rmerge.png" title="" alt="">
